@@ -1,0 +1,23 @@
+void main() {
+    int i;
+
+    i = 4;
+
+    if (i < 5) {
+        print "first";
+        i = i + 2;
+        if (i < 8) {
+            print "second";
+            while (i < 12) {
+                i = i + 1;
+                print "third";
+            }
+        } else {
+            print "fourth";
+            i = 1;
+        }
+    }
+
+    println "fifth";
+    return;
+}

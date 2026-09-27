@@ -1,0 +1,23 @@
+void main() {
+    int j;
+    int b;
+    float g;
+
+    b = 10;
+    g = 1.1;
+
+    j = foo(b, 'c', g, "str", false);
+
+    println(j);
+}
+
+int foo(int i, char c, float f, string s, boolean b) {
+    bar();
+    return i;
+}
+
+void bar() {
+    println("Hi");
+    return;
+}
+

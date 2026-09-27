@@ -1,0 +1,10 @@
+void main() {
+    int[5] i;
+    int j;
+
+    i[3] = 5;
+    
+    j = i[3];
+
+    println(j);
+}

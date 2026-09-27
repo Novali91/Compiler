@@ -1,0 +1,19 @@
+void main() {
+    int i;
+    int j;
+    boolean b;
+    float f;
+
+    i = 1 + 2 * 3 + 5 - 2;
+
+    j = 3 * i;
+
+    b = j < i;
+
+    f = 1.2 + 2.0;
+
+    println(i);
+    println(f);
+    print("And b is: ");
+    println(b);
+}

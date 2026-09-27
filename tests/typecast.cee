@@ -1,0 +1,19 @@
+void main() {
+    float f;
+    int i;
+
+    i = 2;
+    f = foo(i);
+
+    f = 2;
+
+
+}
+
+int foo(float f) {
+    return 1;
+}
+
+float bar(int i)  {
+    return i;
+}

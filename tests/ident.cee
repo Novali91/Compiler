@@ -1,0 +1,9 @@
+void main() {
+    int i;
+    int j;
+
+    i = 3;
+    j = 4;
+
+    println i * j;
+}

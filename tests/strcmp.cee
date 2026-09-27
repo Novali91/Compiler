@@ -1,0 +1,23 @@
+void main() {
+    string[5] s1;
+    boolean b;
+
+    s1[0] = "a";
+    s1[1] = "b";
+    s1[2] = "c";
+    println(s1[0]);
+    println(s1[1]);
+    println(s1[2]);
+
+    b = s1[0] == s1[1];
+
+    println(b);
+
+    b = s1[0] < s1[1];
+
+    println(b);
+
+    b = s1[1] < s1[0];
+
+    println(b);
+}

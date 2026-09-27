@@ -1,0 +1,12 @@
+void main() {
+    int i;
+
+    i = 0;
+
+    while (i < 30) {
+        println "Loop";
+        i = i+1;
+    }
+    println "End";
+    return;
+}

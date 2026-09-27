@@ -1,0 +1,8 @@
+void main() {
+    println(foo(4));
+    return;
+}
+
+int foo(int i) {
+    return i + 3;
+}

@@ -1,0 +1,16 @@
+void main() {
+    int i;
+
+    i = 5;
+
+    if (i < 6) {
+        println('c');
+        i = i + 3;
+        println(i);
+    } else {
+        i = i - 3;
+        println(i);
+    }
+    println('b');
+    return;
+}

@@ -1,0 +1,57 @@
+void main() {
+    int[4] arr;
+    int i;
+    float x;
+    char ch;
+    string msg;
+    boolean flag;
+
+    x = 2;
+
+    i = 0;
+    flag = true;
+    arr[0] = 1;
+    arr[1] = 2;
+    arr[2] = 3;
+    arr[3] = 4;
+
+    while (i < 4) {
+        x = i + 1;
+        print arr[i] + 1;
+        println x;
+        i = i + 1;
+    }
+
+    if (arr[0] == 1) {
+        ch = 'a';
+        msg = "ok";
+    } else {
+        ch = 'z';
+        msg = "no";
+    }
+
+    println ch;
+    println msg;
+    i = foo(arr[2], ch, x, msg, flag);
+    print i * 2;
+    return;
+}
+
+int foo(int v, char c, float f, string s, boolean b) {
+    int result;
+
+    if (b == false) {
+        result = 0;
+    } else {
+        result = v + 1;
+    }
+
+    bar();
+    return result;
+}
+
+void bar() {
+    print 'b';
+    println 'r';
+    return;
+}

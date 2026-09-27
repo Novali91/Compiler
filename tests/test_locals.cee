@@ -1,0 +1,19 @@
+void main() {
+    int i;
+    return;
+}
+
+int foo(int c, int[5] b, char a, boolean i, string f) {
+    int g;
+    boolean[50] l;
+
+    g = 5;
+
+    return g;
+}
+
+float bar(int c, int[5] b, char h, char g) {
+    int d;
+
+    return 5.1;
+}

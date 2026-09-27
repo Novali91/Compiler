@@ -1,0 +1,10 @@
+void main() 
+{
+    int num_of_hellos;
+    num_of_hellos = 0;
+    while (num_of_hellos < 5) {
+        println("hello!");
+        num_of_hellos = num_of_hellos + 1;
+    }
+    println("goodbye");
+}

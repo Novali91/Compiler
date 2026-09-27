@@ -1,0 +1,17 @@
+void main() {
+    boolean b;
+    int i;
+    float f;
+
+    b = true;
+    if (b == true) {
+        i = 3;
+        f = i + 2;
+        println("hi");
+        println(f);
+    }
+
+    i = 4;
+    println(i);
+    return;
+}
